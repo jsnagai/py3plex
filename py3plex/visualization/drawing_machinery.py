@@ -579,7 +579,7 @@ def draw_networkx_edges(G,
             linewidths=lw,
             antialiaseds=(1, ),
             linestyle=style,
-            transOffset=ax.transData,
+         #   transOffset=ax.transData,
         )
 
         edge_collection.set_zorder(1)  # edges go behind nodes
